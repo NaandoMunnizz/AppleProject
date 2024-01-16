@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: linear-gradient(120deg, #020615, #1b3761);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Container-img {
+    max-width: 245px;
+    margin: 5px 0px;
+
+}
+
+
+.Textfield {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: auto;
+    padding: 0px 75px;
+
+}
+
+.Textfield>label {
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 5px;
+
+
+}
+
+
+
+
+.Textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    padding: 12px;
+    background: #c8efef;
+    color: rgb(1, 1, 1);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #32333456;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 5px;
+
+
+
+}
+
+.Textfield>input::placeholder {
+    color: rgb(1, 1, 1);
+   
+}
+
+.Textfield>input:hover {
+    background: #799494;
+    
+}
+
+
+.btn-button {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 14px;
+    background: #FFD700;
+    color: #151414;
+    cursor: pointer;
+
+
+
+}
+
+.btn-button:hover {
+    background: #c5ac21;
+}
